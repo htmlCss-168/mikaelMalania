@@ -1,0 +1,51 @@
+
+
+.staticPosition {
+    position: static;
+}
+
+.relativePosition {
+    
+    background-color: aquamarine;
+    position: relative;
+    top: 30px;
+    left: 30px;
+    /* bottom: 90px; */
+}
+
+/* .relativePosition img {
+    position: relative;
+    top: 30px;
+    left: 30px;
+} */
+
+.fixedPosition {
+    position: fixed;
+    top: 50px;
+    left: 80%;
+    background-color: aquamarine;
+    width: 150px;
+    height: 150px;
+}
+
+.fixedPosition img {
+    width: 150px;
+    height: 150px;
+}
+
+.absolutePosition {
+    position: absolute;
+    top: 50px;
+    /* left: 80%; */
+    background-color: rgb(149, 186, 28);
+    width: 150px;
+    height: 150px;
+}
+
+.stickyPosition {
+    position: sticky;
+    top: 10px;
+    background-color: rgb(186, 123, 28);
+    width: 100%;
+    /* height: 150px; */
+}
