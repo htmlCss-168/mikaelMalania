@@ -1,0 +1,22 @@
+.transformProperty {
+    margin: 20px;
+}
+
+#image1 {
+    margin: 50px;
+    transform: rotate(20deg);
+}
+
+#image2 {
+    margin: 50px;
+    /* transform: skew(20deg, 20deg); */
+    transform: skewX(20deg);
+    transform: skewY(20deg);
+}
+
+#image3 {
+    margin: 50px;
+    /* transform: scale(1.5, 1.5); */
+    transform: scaleX(1.5);
+    /* transform: scaleY(1.5); */
+}
