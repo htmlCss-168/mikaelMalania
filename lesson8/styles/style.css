@@ -26,7 +26,7 @@
     color: #b71bcb;
     transition: background 2s, color 2s;
 }
-
+/* added sample comment */
 .container {
     display: flex;
     justify-content: center;
