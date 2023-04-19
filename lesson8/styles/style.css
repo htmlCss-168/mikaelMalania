@@ -1,0 +1,67 @@
+.container input {
+    width: 50%;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container button {
+    width: 20%;
+    padding: 10px;
+    background: #4CAF50;
+    border: 0;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container button:hover {
+    background: #45a09b;
+    color: #b71bcb;
+    transition: background 2s, color 2s;
+}
+/* added sample comment */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #b71bcb;
+}
+
+.timingFunction {
+    width: 100px;
+    height: 100px;
+    background: #4CAF50;
+    transition: width 2s;
+}
+
+.timingFunction:hover {
+    width: 500px;
+}
+
+.linerEffect {
+    transition-timing-function: linear;
+}
+
+#easeEffect {
+    transition-timing-function: ease;
+}
+
+#easeInEffect {
+    transition-timing-function: ease-in;
+}
+
+#easeOutEffect {
+    transition-timing-function: ease-out;
+}
+
+#easeInOutEffect {
+    transition-timing-function: ease-in-out;
+}
