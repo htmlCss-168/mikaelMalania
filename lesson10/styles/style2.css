@@ -1,0 +1,57 @@
+:root {
+    --globalFontSize: 24px;
+    --myFavoriteColor: #ff00d0;
+}
+
+#paragraph1 {
+    font-size: var(--globalFontSize);
+    color: var(--myFavoriteColor);
+}
+
+#paragraph1::first-line {
+    font-size: 48px;
+    color: #ff0000;
+}
+
+#paragraph1::first-letter {
+    font-size: 48px;
+    color: #1900ff;
+}
+
+#paragraph2 {
+    font-size: var(--globalFontSize);
+    color: var(--myFavoriteColor);
+}
+
+#paragraph3 {
+    font-size: var(--globalFontSize);
+    color: var(--myFavoriteColor);
+
+}
+
+#paragraph2::before {
+    content: "This is a paragraph ";
+    font-size: var(--globalFontSize);
+    color: #ff0000;
+}
+
+#paragraph3::after {
+    content: " This is a paragraph";
+    font-size: var(--globalFontSize);
+    color: #00ff59;
+}
+
+#paragraph3::-moz-selection {
+    background-color: #eeff00;
+    color: #30ee1ec2;
+}
+
+#paragraph3::selection {
+    background-color: #eeff00;
+    color: #30ee1ec2;
+}
+
+::marker {
+    font-size: var(--globalFontSize);
+    color: #ff0000;
+}

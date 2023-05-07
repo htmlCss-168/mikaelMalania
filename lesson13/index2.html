@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styles/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/fontawesome.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <a href="#home" class="active">Logo</a>
+                <div id="pageLinks">
+                    <a href="#about">About</a>
+                    <a href="#contact">Contact</a>
+                    <a href="#news">News</a>
+                </div>
+                <a class="icon" onclick="toggleLogo()">
+                    <i> = </i>
+                </a>
+            </nav>
+
+            <div style="padding-left: 18px;">
+                <h3>Horizontal Navigation bar example</h3>
+                <p>This example is here to show how Navigation bar works in html using javascript.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio explicabo odit quod repellendus vero praesentium molestiae, expedita nostrum excepturi, nulla modi quaerat velit neque? Ea sint quam optio nemo distinctio.</p>
+            </div>
+
+        </header>
+
+        <script type="text/javascript">
+            function toggleLogo() {
+                var x = document.getElementById("pageLinks");
+                if (x.style.display === "block") {
+                    x.style.display = "none";
+                } else {
+                    x.style.display = "block";
+                }
+
+            }
+        </script>
+
+    </body>
+</html>

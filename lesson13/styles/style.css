@@ -1,0 +1,51 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    max-width: 100%;
+    margin: auto;
+    background-color: rgb(16, 192, 133);
+    height: 460px;
+    color: white;
+    border-radius: 10px;
+}
+
+nav {
+    overflow: hidden;
+    background-color: rgb(107, 215, 71);
+    position: relative;
+}
+
+nav #pageLinks {
+    display: none;
+}
+
+nav a {
+    float: left;    
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+nav a.icon {
+    float: right;
+    display: block;
+}
+
+nav a:hover {
+    background-color: rgb(7, 115, 79);
+    color: black;
+}
+
+.active {
+    background-color: rgb(58, 133, 108);
+    color: white;
+}
+
+
+
+i {
+    cursor: pointer;
+}
