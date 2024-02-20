@@ -1,0 +1,17 @@
+.div1 {
+    display: flex;
+    background-color: aqua;
+    width: 50%;
+}
+
+.div2 {
+    display: flex;
+    background-color: aquamarine;
+    width: 50%;
+}
+
+.mergerDiv {
+    display: flex;
+    background-color: rgb(255, 225, 127);
+    width: 100%;
+}

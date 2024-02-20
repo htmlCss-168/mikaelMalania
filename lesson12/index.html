@@ -1,0 +1,49 @@
+<html>
+    <head></head>
+    <body>
+        <h3 style="text-align: center;">Javascript example</h3>
+
+        <script type="text/javascript">
+            var a = "this is my example, it isn't yours " + '"whats that" he said.';
+            var b = 20;
+            
+            var choice = "red";
+
+            // if (choice == "red") {
+            //     alert("you chose red");
+            // } else if (choice == "blue") {
+            //     alert("you chose blue");
+            // } else {
+            //     alert("you chose something else");
+            // }
+
+            // alert(a + b);
+
+            var myArray = ["red", "blue", 123, 12.90, "yellow"];
+            
+            // alert(myArray[1]);
+
+            var database = {
+                name: "John",
+                age: 30,
+                address: "123 Main St"
+            }; // ამ ცვლადის ტიპია ობიექტი
+
+            // alert(JSON.stringify(database));
+            // alert(database.name);
+
+            myArray.push("green");
+
+            myArray.splice(1, 1);
+
+            // alert(myArray);
+
+            database["surname"] = "Smith";
+            
+            delete database.age;
+            
+            alert(JSON.stringify(database, null, 2));
+            
+        </script>
+    </body>
+</html>

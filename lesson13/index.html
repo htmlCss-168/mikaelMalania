@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styles/style.css">
+    </head>
+    <body>
+        <header></header>
+        <main>
+            <p id="dummy">This some dummy data</p>
+            <form onsubmit="login()">
+                <label id="username">Username:</label>
+                <input type="text" id="InputUsername" placeholder="Username">
+                <label id="password">Password:</label>
+                <input type="password" id="InputPassword" placeholder="Password">
+                <input type="submit" value="Login">
+            </form>
+
+        </main>
+        <footer></footer>
+        <script type="text/javascript">
+            function sayHello() {
+                alert("Hello World");
+            }
+
+            function calculator(num1, operator, num2) {
+                if (operator == "+") {
+                    alert("Hello World");
+                    return num1 + num2;
+                } else if (operator == "-") {
+                    return num1 - num2;
+                } else if (operator == "*") {
+                    return num1 * num2;
+                } else if (operator == "/") {
+                    return num1 / num2;
+                } else {
+                    return "Invalid Operator";
+                }
+            }
+            // alert(calculator(1, "-", 2));
+
+            var dummyData = document.getElementById("dummy").innerHTML;
+            // alert(dummyData);
+            function login() {
+                var username = document.getElementById("InputUsername").value;
+                var password = document.getElementById("InputPassword").value;
+                event.preventDefault();
+                if (username == "admin" && password == "admin") {
+                    // alert("Login Successful");
+                    window.location.href = "/loginSuccess.html";
+                } else {
+                    // alert("Login Failed");
+                    window.location.href = "/loginFailed.html";
+                }
+            }
+
+        </script>
+    </body>
+</html>

@@ -1,0 +1,46 @@
+#button {
+    background: #051264;
+    color: #fff;
+    /* padding: 20px; */
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    /* margin: 20px; */
+    margin-left: 40px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@font-face {
+    font-family: branda;
+    src: url("/styles/fonts/Branda-yolq.ttf");
+}
+
+@font-face {
+    font-family: bigParty;
+    src: url("/styles/fonts/Bigparty4blue.ttf");
+}
+
+#paragraph1 {
+    font-family: bigParty;
+}
+
+#paragraph2 {
+    /* font-family: branda; */
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: uppercase;
+    line-height: 50px;
+    text-decoration: underline;
+}
+
+img {
+    position: relative;
+    left: 120px;
+    top: 220px;
+    bottom: 20px;
+    right: 70px;
+}
